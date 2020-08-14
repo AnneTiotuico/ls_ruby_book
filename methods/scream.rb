@@ -1,10 +1,10 @@
-# What will the following code print to the screen?
+#1) Edit the method definition in exercise #4 so that it does print words on the screen. 2) What does it return now?
 def scream(words)
   words = words + "!!!!"
-  return
+  
   puts words
 end
 
 scream("Yippeee")
 
-#This will not print anything to the screen, since the return keyword is placed right before the puts statement, which doesn't evaluate the puts line.
+#it prints "Yippeee!!!!" now, but returns nil (since puts words returns nil)
