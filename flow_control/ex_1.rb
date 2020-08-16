@@ -3,6 +3,6 @@
 
 (32 * 4) >= 129 # false
 false != !true # false
-true == 4 # false
+true == 4 # false; 4 is a truthy value, but does not equal the boolean value true
 false == (847 == '874') # true
 (!true || (!(100 / 5) == 20) || ((328 / 4) == 82)) || false # true
